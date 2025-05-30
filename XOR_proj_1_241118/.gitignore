@@ -1,0 +1,29 @@
+# Quartus temporary files
+db/
+incremental_db/
+output_files/
+*.bak
+*.rpt
+*.log
+*.smsg
+*.qsf
+*.qpf
+*.tcl
+
+# Simulation and waveform files
+*.vwf
+*.vcd
+*.wlf
+*.asdb
+*.ghw
+
+# Schematic/block diagram
+*.bdf
+*.svg
+
+# VS Code
+.vscode/
+
+# Temp
+*~
+*.tmp

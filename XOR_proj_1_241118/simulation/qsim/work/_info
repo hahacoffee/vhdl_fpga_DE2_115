@@ -1,0 +1,75 @@
+m255
+K4
+z2
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+Z0 dC:/Application/Quartus/FPGA_project/XOR_proj_1_241118/simulation/qsim
+vhard_block
+Z1 !s110 1748621163
+!i10b 1
+!s100 iDUmio40b=ZUmeQLWSDBn3
+I<JZjmSU1co6F;5aL:4VGT2
+Z2 VDg1SIo80bB@j0V0VzS_@n1
+R0
+Z3 w1748621163
+Z4 8XOR_proj_1_241118.vo
+Z5 FXOR_proj_1_241118.vo
+L0 119
+Z6 OV;L;10.5b;63
+r1
+!s85 0
+31
+Z7 !s108 1748621163.000000
+Z8 !s107 XOR_proj_1_241118.vo|
+Z9 !s90 -work|work|XOR_proj_1_241118.vo|
+!i113 1
+Z10 o-work work
+Z11 tCvgOpt 0
+vXOR_proj_1_241118
+R1
+!i10b 1
+!s100 105Sl7NJFYO]^?Jc`dUcC1
+IB_OlCB4o]LkPJIcJCOhFU2
+R2
+R0
+R3
+R4
+R5
+L0 31
+R6
+r1
+!s85 0
+31
+R7
+R8
+R9
+!i113 1
+R10
+R11
+n@x@o@r_proj_1_241118
+vXOR_proj_1_241118_vlg_vec_tst
+R1
+!i10b 1
+!s100 SH5jjG?_WkIN6iWhWeNGa1
+IGY0UgK`c0FFeg;emJhZam1
+R2
+R0
+w1748621162
+8Waveform1.vwf.vt
+FWaveform1.vwf.vt
+L0 29
+R6
+r1
+!s85 0
+31
+R7
+!s107 Waveform1.vwf.vt|
+!s90 -work|work|Waveform1.vwf.vt|
+!i113 1
+R10
+R11
+n@x@o@r_proj_1_241118_vlg_vec_tst
