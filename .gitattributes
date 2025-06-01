@@ -1,9 +1,9 @@
-# ========== 行尾格式處理 ==========
+# ========== Line Endings Treatment ==========
 
-# 對所有文字檔使用 LF，避免 Git 換行警告
+# Use LF for all text files to avoid Git line ending warnings
 * text=auto eol=lf
 
-# 明確指定常見程式檔案的格式
+# Explicitly specify formats for common programming files
 *.vhdl text eol=lf
 *.vhd  text eol=lf
 *.v    text eol=lf
@@ -14,16 +14,16 @@
 *.md   text eol=lf
 *.tcl  text eol=lf
 
-# ========== 二進位檔案處理 ==========
+# ========== Binary Files Treatment ==========
 
-# 圖片、波形等不做換行轉換
+# Do not convert line endings for images and waveforms
 *.png binary
 *.jpg binary
 *.jpeg binary
 *.gif binary
 *.bmp binary
 
-# Quartus 專案中可能會出現的二進位格式
+# Binary formats that might appear in Quartus projects
 *.smsg binary
 *.qdb  binary
 *.so   binary

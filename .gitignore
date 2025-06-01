@@ -1,0 +1,36 @@
+# 📁 Compilation products and temporary directories
+**/db/
+**/incremental_db/
+**/output_files/
+
+# 📄 Generated configuration or compilation related files
+**/*.bak
+**/*.log
+**/*.rpt
+**/*.smsg
+**/*.qws
+**/*.qdf
+**/*.qsf
+
+# 📄 Simulation intermediate and translation files
+**/*.vcd
+**/*.wlf
+**/*.asdb
+**/simulation/qsim/
+
+# 📄 Other unnecessary files
+#**/*.qpf   # Project settings file
+#**/*.qsf   # Pin assignments and settings file
+
+# 🧪 ModelSim specific files
+**/transcript
+**/vsim.wlf
+
+# 💻 VS Code personal environment settings
+.vscode/
+
+# 💾 System or temporary files
+*.tmp
+*.swp
+*~
+Project_Plan.md
