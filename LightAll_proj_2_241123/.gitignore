@@ -1,0 +1,35 @@
+# 📁 編譯產物與暫存資料夾
+**/db/
+**/incremental_db/
+**/output_files/
+
+# 📄 產生的設定或編譯相關檔案
+**/*.bak
+**/*.log
+**/*.rpt
+**/*.smsg
+**/*.qws
+**/*.qdf
+**/*.qsf
+
+# 📄 模擬中介與轉譯檔案
+**/*.vcd
+**/*.wlf
+**/*.asdb
+**/simulation/qsim/
+
+# 📄 其他不需要的檔案
+#**/*.qpf   # 專案設定檔
+#**/*.qsf   # 腳位與設定檔
+
+# 🧪 ModelSim 特有檔案
+**/transcript
+**/vsim.wlf
+
+# 💻 VS Code 個人環境設定
+.vscode/
+
+# 💾 系統或暫存檔
+*.tmp
+*.swp
+*~
