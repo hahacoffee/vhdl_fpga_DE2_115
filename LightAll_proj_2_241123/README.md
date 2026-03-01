@@ -11,4 +11,7 @@ VHDL implementation of basic LED control logic. Maps 18 switch inputs (`SW[0:17]
 - `light1.vhd`: VHDL Logic Design
 - `light1.qpf` / `.qsf`: Quartus Project & Pin Configurations
 
+## Simulation
+![LightAll Waveform Simulation](docs/lightall_waveform.png)
+
 *Author: Jeffery*

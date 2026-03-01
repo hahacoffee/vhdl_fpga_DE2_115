@@ -1,7 +1,7 @@
-# 類型：EditorConfig 設定
-# 功能：統一行尾、縮排、編碼等
+# Type: EditorConfig settings
+# Function: Unify line endings, indentation, encoding, etc.
 
-# 預設對所有檔案的規範
+# Default rules for all files
 [*]
 charset = utf-8
 end_of_line = lf
@@ -10,11 +10,11 @@ indent_style = space
 indent_size = 2
 trim_trailing_whitespace = true
 
-# Markdown 特例：允許保留空白（避免截斷段尾）
+# Markdown exception: Allow trailing whitespace (to prevent truncating block lines)
 [*.md]
 trim_trailing_whitespace = false
 
-# VHDL / Verilog 可用 2 或 4 空格，以下是 2 格縮排版本
+# VHDL / Verilog can use 2 or 4 spaces; this is the 2-space version
 [*.vhd]
 indent_size = 2
 
