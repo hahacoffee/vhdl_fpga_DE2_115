@@ -11,4 +11,7 @@ Implementation of a basic XOR logic gate to verify fundamental logic operations 
 - `XOR_proj_1_241118.bdf`: Block Diagram Design
 - `Waveform.vwf`: Simulation Waveform Input
 
+## Simulation
+![XOR Waveform Simulation](docs/xor_waveform.png)
+
 *Author: Jeffery*
