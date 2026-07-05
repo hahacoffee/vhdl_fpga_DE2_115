@@ -1,0 +1,149 @@
+/*
+WARNING: Do NOT edit the input and output ports in this file in a text
+editor if you plan to continue editing the block that represents it in
+the Block Editor! File corruption is VERY likely to occur.
+*/
+/*
+Copyright (C) 2018  Intel Corporation. All rights reserved.
+Your use of Intel Corporation's design tools, logic functions 
+and other software and tools, and its AMPP partner logic 
+functions, and any output files from any of the foregoing 
+(including device programming or simulation files), and any 
+associated documentation or information are expressly subject 
+to the terms and conditions of the Intel Program License 
+Subscription Agreement, the Intel Quartus Prime License Agreement,
+the Intel FPGA IP License Agreement, or other applicable license
+agreement, including, without limitation, that your use is for
+the sole purpose of programming logic devices manufactured by
+Intel and sold by Intel or its authorized distributors.  Please
+refer to the applicable agreement for further details.
+*/
+(header "graphic" (version "1.4"))
+(pin
+	(input)
+	(rect 432 360 616 376)
+	(text "INPUT" (rect 141 0 200 18)(font "Arial" (font_size 6)))
+	(text "SW[0..0]" (rect 5 0 95 22)(font "Arial" ))
+	(pt 184 8)
+	(drawing
+		(line (pt 100 12)(pt 125 12))
+		(line (pt 100 4)(pt 125 4))
+		(line (pt 129 8)(pt 184 8))
+		(line (pt 100 12)(pt 100 4))
+		(line (pt 125 4)(pt 129 8))
+		(line (pt 125 12)(pt 129 8))
+	)
+	(text "VCC" (rect 144 7 188 25)(font "Arial" (font_size 6)))
+	(annotation_block (location)(rect 320 376 432 408))
+)
+(pin
+	(input)
+	(rect 432 384 616 400)
+	(text "INPUT" (rect 141 0 200 18)(font "Arial" (font_size 6)))
+	(text "SW[1..1]" (rect 5 0 89 25)(font "Intel Clear" ))
+	(pt 184 8)
+	(drawing
+		(line (pt 100 12)(pt 125 12))
+		(line (pt 100 4)(pt 125 4))
+		(line (pt 129 8)(pt 184 8))
+		(line (pt 100 12)(pt 100 4))
+		(line (pt 125 4)(pt 129 8))
+		(line (pt 125 12)(pt 129 8))
+	)
+	(text "VCC" (rect 144 7 188 25)(font "Arial" (font_size 6)))
+	(annotation_block (location)(rect 320 400 432 432))
+)
+(pin
+	(input)
+	(rect 432 416 616 432)
+	(text "INPUT" (rect 141 0 200 18)(font "Arial" (font_size 6)))
+	(text "SW[2..2]" (rect 5 0 89 25)(font "Intel Clear" ))
+	(pt 184 8)
+	(drawing
+		(line (pt 100 12)(pt 125 12))
+		(line (pt 100 4)(pt 125 4))
+		(line (pt 129 8)(pt 184 8))
+		(line (pt 100 12)(pt 100 4))
+		(line (pt 125 4)(pt 129 8))
+		(line (pt 125 12)(pt 129 8))
+	)
+	(text "VCC" (rect 144 7 188 25)(font "Arial" (font_size 6)))
+	(annotation_block (location)(rect 320 432 432 464))
+)
+(pin
+	(output)
+	(rect 888 368 1089 384)
+	(text "OUTPUT" (rect 1 0 82 18)(font "Arial" (font_size 6)))
+	(text "LEDG[0..0]" (rect 90 0 195 25)(font "Intel Clear" ))
+	(pt 0 8)
+	(drawing
+		(line (pt 0 8)(pt 52 8))
+		(line (pt 52 4)(pt 78 4))
+		(line (pt 52 12)(pt 78 12))
+		(line (pt 52 12)(pt 52 4))
+		(line (pt 78 4)(pt 82 8))
+		(line (pt 82 8)(pt 78 12))
+		(line (pt 78 12)(pt 82 8))
+	)
+	(annotation_block (location)(rect 1089 384 1185 416))
+)
+(symbol
+	(rect 712 344 832 456)
+	(text "dff_1130" (rect 5 0 97 22)(font "Arial" ))
+	(text "inst" (rect 8 96 42 118)(font "Arial" ))
+	(port
+		(pt 0 32)
+		(input)
+		(text "d" (rect 0 0 12 22)(font "Arial" ))
+		(text "d" (rect 21 27 33 49)(font "Arial" ))
+		(line (pt 0 32)(pt 16 32))
+	)
+	(port
+		(pt 0 48)
+		(input)
+		(text "clk" (rect 0 0 27 22)(font "Arial" ))
+		(text "clk" (rect 21 43 48 65)(font "Arial" ))
+		(line (pt 0 48)(pt 16 48))
+	)
+	(port
+		(pt 0 64)
+		(input)
+		(text "rst" (rect 0 0 24 22)(font "Arial" ))
+		(text "rst" (rect 21 59 45 81)(font "Arial" ))
+		(line (pt 0 64)(pt 16 64))
+	)
+	(port
+		(pt 120 32)
+		(output)
+		(text "q" (rect 0 0 12 22)(font "Arial" ))
+		(text "q" (rect 89 27 101 49)(font "Arial" ))
+		(line (pt 120 32)(pt 104 32))
+	)
+	(drawing
+		(rectangle (rect 16 16 104 96))
+	)
+)
+(connector
+	(pt 616 368)
+	(pt 712 368)
+)
+(connector
+	(pt 712 368)
+	(pt 712 376)
+)
+(connector
+	(pt 616 392)
+	(pt 712 392)
+)
+(connector
+	(pt 616 424)
+	(pt 712 424)
+)
+(connector
+	(pt 712 424)
+	(pt 712 408)
+)
+(connector
+	(pt 888 376)
+	(pt 832 376)
+)
