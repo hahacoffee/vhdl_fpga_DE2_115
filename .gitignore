@@ -10,17 +10,12 @@
 **/*.smsg
 **/*.qws
 **/*.qdf
-**/*.qsf
 
 # 📄 Simulation intermediate and translation files
 **/*.vcd
 **/*.wlf
 **/*.asdb
-**/simulation/qsim/
-
-# 📄 Other unnecessary files
-#**/*.qpf   # Project settings file
-#**/*.qsf   # Pin assignments and settings file
+**/simulation/
 
 # 🧪 ModelSim specific files
 **/transcript
