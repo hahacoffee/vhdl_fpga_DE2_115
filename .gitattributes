@@ -1,9 +1,6 @@
-# ========== Line Endings Treatment ==========
-
-# Use LF for all text files to avoid Git line ending warnings
+# Line endings: normalize text files to LF to avoid cross-platform churn.
 * text=auto eol=lf
 
-# Explicitly specify formats for common programming files
 *.vhdl text eol=lf
 *.vhd  text eol=lf
 *.v    text eol=lf
@@ -11,21 +8,13 @@
 *.qpf  text eol=lf
 *.bdf  text eol=lf
 *.vwf  text eol=lf
-*.md   text eol=lf
 *.tcl  text eol=lf
-
-# ========== Binary Files Treatment ==========
-
-# Do not convert line endings for images and waveforms
-*.png binary
-*.jpg binary
-*.jpeg binary
-*.gif binary
-*.bmp binary
-
-# Binary formats that might appear in Quartus projects
-*.smsg binary
-*.qdb  binary
-*.so   binary
-*.elf  binary
+*.md   text eol=lf
 *.hex  text eol=lf
+
+# Binary assets (documentation screenshots).
+*.png  binary
+*.jpg  binary
+*.jpeg binary
+*.gif  binary
+*.bmp  binary

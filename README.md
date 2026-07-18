@@ -1,4 +1,4 @@
-# VHDL FPGA Projects — DE2-115
+# VHDL FPGA Projects (DE2-115)
 
 Course-based VHDL practice portfolio from the NYCU FPGA digital circuit program.
 
